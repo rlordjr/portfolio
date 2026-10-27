@@ -121,6 +121,15 @@ article.study { border-top: 2px solid var(--ink); padding-block: 2.5rem 4rem; sc
   max-width: 24ch;
   text-wrap: balance;
 }
+.study .dek {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  line-height: 1.4;
+  color: var(--muted);
+  margin: 0;
+  max-width: 40rem;
+}
 .study-body { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 3rem; }
 dl.meta { margin: 0; display: grid; gap: 1rem; align-content: start; }
 dl.meta div { display: grid; gap: 0.15rem; }
@@ -189,18 +198,19 @@ html { scroll-behavior: smooth; }
 
   <nav class="index" aria-label="Case studies">
     <ol>
-      <li><a href="#diagnosis"><span class="n">01</span><span class="t">Shared Empathy for the User's Challenges</span><span class="c">Cox Communications</span></a></li>
-      <li><a href="#mentoring"><span class="n">02</span><span class="t">Mentoring Through Real Work</span><span class="c">Cox Communications</span></a></li>
-      <li><a href="#brokers"><span class="n">03</span><span class="t">Finding the people behind the “broker” label</span><span class="c">Insurance &amp; financial services</span></a></li>
-      <li><a href="#ai-analysis"><span class="n">04</span><span class="t">Sun Life Customer Research and AI Analysis</span><span class="c">Sun Life</span></a></li>
-      <li><a href="#coach"><span class="n">05</span><span class="t">Interview Coach Agent</span><span class="c">HCI graduate program</span></a></li>
+      <li><a href="#diagnosis"><span class="n">01</span><span class="t">Nodes, suckout, and hubs. Oh my.</span><span class="c">Broadband provider</span></a></li>
+      <li><a href="#mentoring"><span class="n">02</span><span class="t">Of Mice and...Zippers</span><span class="c">Broadband provider</span></a></li>
+      <li><a href="#brokers"><span class="n">03</span><span class="t">Who's brokering the deal?</span><span class="c">Insurance &amp; financial services</span></a></li>
+      <li><a href="#ai-analysis"><span class="n">04</span><span class="t">Talented rookie falls short</span><span class="c">Insurance &amp; financial services</span></a></li>
+      <li><a href="#coach"><span class="n">05</span><span class="t">Who'll coach the coach?</span><span class="c">HCI graduate program</span></a></li>
     </ol>
   </nav>
 
   <article class="study" id="diagnosis">
     <div class="study-head">
       <span class="label">01 · Field research · Team alignment</span>
-      <h2>Shared Empathy for the User's Challenges</h2>
+      <h2>Nodes, suckout, and hubs. Oh my.</h2>
+      <p class="dek">Deep understanding of user mindset gives team a shared language for communication</p>
     </div>
     <div class="study-body">
       <dl class="meta">
@@ -222,7 +232,8 @@ html { scroll-behavior: smooth; }
   <article class="study" id="mentoring">
     <div class="study-head">
       <span class="label">02 · Design discovery · Coaching</span>
-      <h2>Mentoring Through Real Work</h2>
+      <h2>Of Mice and...Zippers</h2>
+      <p class="dek">Supportive mentoring empowers new designer</p>
     </div>
     <div class="study-body">
       <dl class="meta">
@@ -248,7 +259,8 @@ html { scroll-behavior: smooth; }
   <article class="study" id="brokers">
     <div class="study-head">
       <span class="label">03 · Recruiting · Research rigor</span>
-      <h2>Finding the people behind the “broker” label</h2>
+      <h2>Who's brokering the deal?</h2>
+      <p class="dek">Figuring out who really does the work</p>
     </div>
     <div class="study-body">
       <dl class="meta">
@@ -270,7 +282,8 @@ html { scroll-behavior: smooth; }
   <article class="study" id="ai-analysis">
     <div class="study-head">
       <span class="label">04 · Qualitative analysis · AI evaluation</span>
-      <h2>Sun Life Customer Research and AI Analysis</h2>
+      <h2>Talented rookie falls short</h2>
+      <p class="dek">Expert humans outpace AI in real world</p>
     </div>
     <div class="study-body">
       <dl class="meta">
@@ -292,7 +305,7 @@ html { scroll-behavior: smooth; }
   <article class="study" id="coach">
     <div class="study-head">
       <span class="label">05 · AI tooling · Researcher development</span>
-      <h2>Interview Coach Agent</h2>
+      <h2>Who'll coach the coach?</h2>
     </div>
     <div class="study-body">
       <dl class="meta">
